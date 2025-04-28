@@ -68,20 +68,5 @@ const displayNotes = () => {
     })
 }
 
-// const displayNotes = () => {
-//   Show.innerHTML = '';
-//   show.innerHTML ='<h3 class= "text-center my-3 text-decoration-underline">All Notes</h3>';
-//   allNotes.map((note, i) => {
-//     show.innerHTML += `
-//     <div class="card" style="width: 18rem;">
-//     <div class="card-body">
-//     <h5 class="card-title">Card title</h5>
-//     <p class="col-lg-7 col-sm">${i + 1}. ${note}</p>
-//     <button data-bs-toggle="modal" data-bs-target="#exampleModal" class="col mx-2 btn btn btn-info" onclick="editNote('${note}', ${i})">Edit</button>
-//     <button class="col mx-2 btn btn-sm btn-danger" onclick="deleteNote(${i})">Delete</button>
-//   </div>
-// </div>`;
-//   });
-// };
 
 console.log(erekere.outerHTML.split(""));
